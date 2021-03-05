@@ -189,10 +189,10 @@
       this.flamable = 0;
       switch (type) {
           case Type.Dust: //d
-              h = color += .2;
-              s = 360;
-              l = 50;
-              d = 20;
+              h = 100;
+              s = 100;
+              l = 100;
+              d = 100;
               this.flamable = 1;
               break;
           case Type.Water: //d
