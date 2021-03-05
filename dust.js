@@ -17,8 +17,8 @@
       Powder: "Powder",
       Nitro: "Nitro"
   };
-  var width = 500;
-  var height = 500;
+  var width = 100;
+  var height = 100;
   var interval = 1000 / (40 /* fps */ );
   var frame = 1;
   var color = 0;
@@ -189,10 +189,10 @@
       this.flamable = 0;
       switch (type) {
           case Type.Dust: //d
-              h = 100;
-              s = 0;
-              l = 100;
-              d = 100;
+              h = 2; //hue
+              s = 300; //?
+              l = 300; //
+              d = 1; //down?/density
               this.flamable = 1;
               break;
           case Type.Water: //d
